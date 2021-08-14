@@ -1,0 +1,15 @@
+.players-list-container{
+    display: flex;
+}
+.players-container{
+    width: 70%;
+    margin-left: 20px;
+    margin-right: 5px;
+    border-right: 1px solid lightgray;
+}
+.heading{
+    color: rgb(189, 144, 32);
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}

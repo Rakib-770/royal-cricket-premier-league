@@ -1,0 +1,30 @@
+.players{
+    text-align:left;
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 150px;
+    padding-bottom: 5px;
+}
+.player-name{
+    color: purple;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.add-button{
+    color: white;
+    background-color: rgb(228, 76, 76);
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.player-image{
+    width: 250px;
+    height: 200px;
+}
+.name-price-btn{
+    margin-left: 100px;
+}
