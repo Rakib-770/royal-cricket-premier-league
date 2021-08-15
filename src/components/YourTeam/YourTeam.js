@@ -8,11 +8,22 @@ const YourTeam = (props) => {
 
     return (
         <div className="your-team">
-            <h2>This is your team</h2>
-            <p>Players selected: {yourTeam.length}</p>
-            <p>Selected players: {selectedPlayer}</p>
-            <p>Team budget: $10,00,000</p>
-            <p>Total Cost: ${total}</p>
+
+            <div class="card">
+                <div class="card-header">
+                    Your Team
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Team players and cost</h5>
+
+                    <p>Players selected: {yourTeam.length}</p>
+                    <p>Selected players: {selectedPlayer}</p>
+                    <p>Team budget: $10,00,000</p>
+                    <p>Total Cost: ${total}</p>
+                    <a href="#" class="btn btn-primary">Team Overview</a>
+                </div>
+            </div>
+
         </div>
     );
 };
