@@ -21,7 +21,7 @@ const PlayersList = () => {
     return (
 
         <div>
-          <h1 className="heading">Make your own team and participate in the RCPL</h1>
+          <h1 className="heading">Select your team players</h1>
           <div className="players-list-container">
             <div className="players-container">
               {

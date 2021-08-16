@@ -6,8 +6,9 @@
 }
 .header nav{
     background-color: purple;
-    line-height: 40px;
+    line-height: 60px;
     font-size: 20px;
+    font-weight: bold;
 
 }
 nav a{
@@ -17,5 +18,6 @@ nav a{
     padding: 7px;
 }
 nav a:hover{
-    background-color: rgb(228, 76, 76);
+    background-color: rgb(223, 119, 119);
+    color: black;
 }
